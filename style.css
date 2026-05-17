@@ -1,15 +1,21 @@
-/* style.css */
-
 body{
     margin:0;
-    font-family:Arial;
-    background:#f4f4f4;
-    text-align:center;
-}
+    font-family:Arial, sans-serif;
 
-.navbar{
-    background:#222;
-    padding:15px;
+    /* Background Image */
+    background-image:url("corners_v2.jpg");
+
+    /* Makes image cover entire screen */
+    background-size:cover;
+
+    /* Prevents repeating */
+    background-repeat:no-repeat;
+
+    /* Keeps image centered */
+    background-position:center;
+
+    /* Keeps image fixed while scrolling */
+    background-attachment:fixed;
 }
 
 .navbar a{
@@ -26,14 +32,19 @@ body{
 .main{
     margin-top:80px;
     padding:20px;
+
+    /* Optional dark transparent background for readability */
+    background:rgba(0,0,0,0.5);
+    border-radius:10px;
+    color:white;
 }
 
 h1{
-    color:#222;
+    color:white;
 }
 
 p{
-    color:#555;
+    color:#f1f1f1;
     font-size:18px;
 }
 
