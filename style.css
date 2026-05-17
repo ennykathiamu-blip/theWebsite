@@ -3,7 +3,7 @@ body{
     font-family:Arial, sans-serif;
 
     /* Background Image */
-    background-image:url("corners_v2.jpg");
+    background-image:url("picture.jpg");
 
     /* Makes image cover entire screen */
     background-size:cover;
@@ -51,7 +51,7 @@ p{
 button{
     padding:10px 20px;
     border:none;
-    background:skyblue;
+    background:black;
     color:white;
     border-radius:5px;
     font-size:16px;
